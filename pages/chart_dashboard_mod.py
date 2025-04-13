@@ -124,22 +124,22 @@ if selected_room and selected_town:
     st.markdown("\n\n\n\n\n")
 
 
-    tab7, tab7a, tab8= st.tabs([f"{selected_town}", f"All Town-{selected_room}", "All Town-All Flat"])
-    with tab7:
-        chart7 = plot_pricePerMonth_single(df, selected_room, selected_town)
-        st.markdown("\n\n\n")
-        st.pyplot(chart7)
+    #tab7, tab7a, tab8= st.tabs([f"{selected_town}", f"All Town-{selected_room}", "All Town-All Flat"])
+    #with tab7:
+    #    chart7 = plot_pricePerMonth_single(df, selected_room, selected_town)
+    #    st.markdown("\n\n\n")
+    #    st.pyplot(chart7)
 
-    with tab7a:
-        chart7a = plot_pricePerMonth_all_2(df, selected_room)
-        st.markdown("\n\n\n")
-        st.pyplot(chart7a)
+    #with tab7a:
+    #    chart7a = plot_pricePerMonth_all_2(df, selected_room)
+    #    st.markdown("\n\n\n")
+    #    st.pyplot(chart7a)
 
 
-    with tab8:
-        chart8 = plot_pricePerMonth_all(df)
-        st.markdown("\n\n\n")
-        st.pyplot(chart8)
+    #with tab8:
+    #    chart8 = plot_pricePerMonth_all(df)
+    #    st.markdown("\n\n\n")
+    #    st.pyplot(chart8)
 
 
 
